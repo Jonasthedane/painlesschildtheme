@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+ Theme Name:   Twenty Seventeen Child	
+ Theme URI:    http://example.com/twentyseventeen/
+ Description:  Twenty-Seventeen
+ Author:       Jonas Andersen
+ Author URI:   http://example.com
+ Template:     twentyseventeen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  Twenty Seventeen
+*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+	font-family: 'Roboto', sans-serif !important; 
+}
+
+.site-title {
+	text-align: center !important;
+	font-size: 400%;
+}
+
+.site-title h1 {
+	text-align: center;
+}
+.navigation-top a {
+	color: white;
+}
+.navigation-top  {
+	background-color: #4C78D0;
+}
+.box {
+	border: 1px solid black;
+	text-align: center;
+}
+.box h2 {
+	text-align: center;	
+}
+#main h1 {
+	font-size: 50px;
+	text-transform: capitalize;
+	margin-bottom: -80px;
+}
+#main p {
+	text-align: justify;
+}
+.billeder {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.page .panel-content .entry-title,
+.page-title,
+body.page:not(.twentyseventeen-front-page) .entry-title h2 {
+	color: #222;
+	font-size: 12px;
+	font-size: 40px;
+	font-weight: 800;
+	letter-spacing: 0.14em;
+	text-transform: uppercase;
+	text-align: center;
+	color: #eaa32a;
+}
+
+#post-22 {
+	display: none;
+}
+
+.twentyseventeen-front-page article:not(.has-post-thumbnail):not(:first-child) {
+	border-top: 0px solid #ddd;
+}
+
+.panel-content .wrap  {
+	padding-top: 50px !important;
+	padding-bottom: 0px !important;
+}
+.entry-header {
+	margin-bottom: 20px !important;
+}
+
+#panel2 .entry-header {
+	margin-bottom: 0px !important;
+}
+.main-navigation a:hover {
+	color: #eaa32a !important;
+}
+h3 {
+	color: #eaa32a;
+}
+.site-info { display: none; }
+
+#post-14 .entry-header {
+	display: none;
+}
+.innerwrap {
+	width: 100%;
+	display: inline;
+}
+.mie{
+	width: 50%;
+	float: left;
+}
+.caroline {
+	width: 50%;
+	float: right;
+}
